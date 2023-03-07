@@ -32,8 +32,48 @@
     <style>
         h2 {color:red;}
     </style>
+    <style>
+nav {
+  background-color:green;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+        
+        
     
-  </head>
+    </style>
+    <style>
+      #myImage {
+        width: 100px;
+        height: 100px;
+        transition: all 0.5s ease; /* smooth transition effect */
+      }
+
+      #myImage:hover {
+        content: url("../assets/images/ohne1080p.gif"); /* change the image source on hover */
+      }
+    </style>
+    
+  
   <body>
 <TITLE>
 ZEKKI KANIS THE VTUBER
@@ -47,17 +87,28 @@ ZEKKI KANIS THE VTUBER
             </h1>
         </FONT>
     </center>
+    
     <b></b>
     <FONT FACE="Arial">
     <marquee style="color:white" behavior="scroll" direction="left">IM SO HAPPY IM SO HAPPY IM SO HAPPY IM SO HAPPY IM SO HAPPY IM SO HAPPY</marquee>
         </FONT>
     </b>
+ <nav>
+         <center>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../about.html">About</a></li>
+    
+    <li><a href="../contact.html">Contact</a></li>
+  </ul>
+             </center>
+</nav>
  <CENTER>
      <IMG SRC="../assets/images/zekki.png" alt="zekki" width=600 height=600>
     </CENTER>
      <br>
      <center>
- <audio controls autoplay loop> 
+ <audio autoplay loop> 
     <source src="../assets/audio/osrs.mp3" type="audio/mpeg">
 </audio>
          </center>
@@ -72,7 +123,7 @@ ZEKKI KANIS THE VTUBER
      </center>
      
     <center>
-        <img src="../assets/images/ohnelamonting.gif" style= width=100 height=100>
+        <img id="myImage" src="../assets/images/ohnelamonting.gif" style= width=100 height=100>
      </center>
                                        
                                                                     
