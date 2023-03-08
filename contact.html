@@ -3,6 +3,28 @@
     
     <head>
         <style>
+		body {
+			cursor: url('../assets/images/cursor.png'), auto;
+		}
+	</style>
+        <script type="module">
+  import { rainbowCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+
+  new rainbowCursor();
+</script>
+        <style>
+		#footer {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: lightcoral;
+			color: white;
+			text-align: center;
+			padding: 2px;
+		}
+	</style>
+        <style>
 nav {
   background-color:orange;
 }
@@ -82,5 +104,9 @@ ul#menu li {
 <audio autoplay loop> 
     <source src="../assets/audio/tree.mp3" type="audio/mpeg">
 </audio>
-
+<center>
+     <div id="footer">
+		zekkikanis.com est. 2023
+	</div>
+       </center>  
 </html>
