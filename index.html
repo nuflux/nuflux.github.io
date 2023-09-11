@@ -1,49 +1,17 @@
 <HTML>
 
 <HEAD>
+    <script src="confetti.js"></script>
     <link rel="icon" type="image/x-icon" href="../assets/images/3.0.ico">
-    <style>
-		body {
-			cursor: url('../assets/images/cursor.png'), auto;
-		}
-	</style>
+    <link rel="stylesheet" type="text/css" href="index.css">
+   
    
    <script type="module">
   import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
 
   new fairyDustCursor();
 </script>
-    <style>
-		#footer {
-			position: fixed;
-			left: 0;
-			bottom: 0;
-			width: 100%;
-			background-color: lightcoral;
-			color: white;
-			text-align: center;
-			padding: 2px;
-		}
-	</style>
-    <style>
-      body {
-        background-image: url("../assets/images/zekkitile.png");
-        background-repeat: repeat;
-        animation: diagonal 10s linear infinite; /* set the animation parameters */
-      }
-
-      @keyframes diagonal {
-        from { background-position: 0 0; } /* start position */
-        to { background-position: 100% 100%; } /* end position */
-      }
-    </style>
     
-    <style>
-      #myText {
-        font-size: 36px;
-        color: red;
-      }
-    </style>
     <script>
       var colors = ['red', 'green', 'blue', 'yellow']; // array of colors to cycle through
       var index = 0; // start with the first color
@@ -56,70 +24,14 @@
 
       setInterval(cycleColor, 500); // call the cycleColor function every second
     </script>
-    <style>
-        h2 {color:red;}
-    </style>
-    <style>
-nav {
-  background-color:green;
-}
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-nav a {
-  color: #fff;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #ccc;
-}
-        
-        
-    
-    </style>
-    <style>
-ul#menu li {
-  display:inline;
-  list-style-type: disc;
-  margin-top: 1em;
-  margin-bottom: 1 em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-</style>
-    <style>
-      #myImage {
-        width: 100px;
-        height: 100px;
-        transition: all 0.5s ease; /* smooth transition effect */
-      }
-
-      #myImage:hover {
-        content: url("../assets/images/ohne1080p.gif"); /* change the image source on hover */
-      }
-    </style>
-    
-  
-  <body>
 <TITLE>
 ZEKKI KANIS THE VTUBER
 </TITLE>
 </HEAD>
 
-    <center>
+<body>
+    <div id="confetti-container"><center>
         <FONT FACE="Arial">
             <h1 id=myText>
                 WELCOME TO THE WEBSITE OF ZEKKI KANIS (THE VTUBER) :DDD
@@ -143,10 +55,12 @@ ZEKKI KANIS THE VTUBER
              </center>
 </nav>
     
-    
-    
-    
-    <CENTER><iframe src="https://free.timeanddate.com/countdown/i90i5g31/n4826/cf109/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cac000/cpc000/pcfff/tcfff/fs100/szw448/szh189/tatZEKKI%20ANEVERSERY%20STREAM%20SOON!!!!!/tac000/tptZEKKI%20ANEVERSERY%20STREAM%20NOW!!!!!/tpc000/mac000/mpc000/iso2023-09-10T21:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe></CENTER>
+    <CENTER>
+    <h2>THE DOG ANNEVERSERY DONOTHON THING IS GOING ON RIGHT NOW</h2>
+        <h2>CHECK OUT SOME OF THE REWARDS AND INCENTIVES</h2>
+        <img src="https://cdn.discordapp.com/attachments/1148805886530306099/1148818891460595863/ZEKKITHON.png" alt="donothon" width=500 height=600>
+    </CENTER>
+   
 <CENTER>
      <IMG SRC="../assets/images/zekki.png" alt="zekki" width=600 height=600>
     </CENTER>
@@ -189,5 +103,13 @@ ZEKKI KANIS THE VTUBER
      <div id="footer">
 		zekkikanis.com est. 2023  contact admin@zekkikanis.com
 	</div>
-       </center>                            
+       </center>      </div>
+
+    <script id="confetti.js">
+        // Call the confetti code to start it immediately within the container
+        const confettiContainer = document.getElementById("confetti-container");
+        startConfetti({ target: confettiContainer });
+    </script>
+    
+             </body>
 </HTML>
